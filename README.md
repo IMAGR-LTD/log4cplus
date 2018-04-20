@@ -1,7 +1,7 @@
 % log4cplus README
 
 IMAGR Build steps
-
+```
 git clone https://github.com/IMAGR-LTD/log4cplus.git
 git checkout 1.2.x
 mkdir build
@@ -10,6 +10,7 @@ cmake ..
 make -j6
 sudo make install
 sudo ldconfig
+```
 
 
 Short Description
