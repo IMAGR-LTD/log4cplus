@@ -98,11 +98,11 @@
 #  define __has_feature(X) 0
 #endif
 
-#if (defined (_MSC_VER) && _MSC_VER >= 1600) \
-    || defined (__GXX_EXPERIMENTAL_CXX0X__) \
-    || __cplusplus >= 201103L
+// #if (defined (_MSC_VER) && _MSC_VER >= 1600) \
+//     || defined (__GXX_EXPERIMENTAL_CXX0X__) \
+//     || __cplusplus >= 201103L
 #  define LOG4CPLUS_HAVE_CXX11_SUPPORT
-#endif
+//#endif
 
 #if defined (LOG4CPLUS_HAVE_CXX11_SUPPORT) \
     || __has_feature (cxx_rvalue_references)
